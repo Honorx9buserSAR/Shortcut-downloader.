@@ -1,0 +1,83 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Main container */
+.main-container {
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    color: #28a745; /* Green theme */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Input and Button container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #28a745;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Description and Footer Styles */
+.description {
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: left;
+    color: #777;
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+/* Theme Text */
+.theme {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
